@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>918免费视频服务 - QQ群：936776278</title>
+<script src="./static/jquery.min.js" type="text/javascript"></script>  
+<link href="./static/style.css" rel="stylesheet">
+</head>
+ <body oncontextmenu=self.event.returnValue=false onselectstart="return false">
+  <style>
+#lines .line{
+	color:#FFF;
+	}
+</style> 
+
+<!-- 默认线路 -->
+<div id="a1" class="player">
+<iframe src="vip.php?url=https://www.mgtv.com/b/336825/8108007.html" id="WANG" name="mainFrame" frameborder="0" border="0" marginwidth="0" marginheight="0" allowfullscreen="true" scrolling="no" style="width:100%;" onload="this.height=this.contentWindow.document.documentElement.scrollHeight">
+</iframe> 
+</div> 
+<!-- 切换线路 -->
+<div id=lines>
+<ul> 
+  <a href="#" onClick="playlist(this)"  id="vip.php?url=https://www.mgtv.com/b/336825/8108007.html"><li class="line" data-url="">默认</li></a> 
+  <a href="#" onClick="playlist(this)"  id="beiyong/?url=https://www.mgtv.com/b/336825/8108007.html"><li class="line" data-url="">备用</li></a>
+  <a href="javascript:void(0)" onClick="location.reload()" ><li class="line" data-url="">刷新</li></a>
+
+</ul>
+</div>
+
+<!-- 颜色 -->
+<script>
+$(function(){
+		$(".line:first").css({"margin-color":"#ff0","color":"#ff0"})
+		$(".line").click(function(){
+		$(".line").css({"margin-color":"#fff","color":"#fff"});
+		$(this).css({"margin-color":"#ff0","color":"#ff0"})
+		})	
+		
+	})
+</script>
+<!-- 切换颜色 -->
+  <script>
+function playlist(a){
+    var MV=document.getElementById("WANG");
+    MV.src=a.id;
+    MV.play();
+    }
+</script>
+
+  <script>
+
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return unescape(r[2]); return null;
+        }
+    </script> 
+<script>
+eval(function(d,f,a,c,b,e){b=function(a){return a.toString(f)};if(!"".replace(/^/,String)){for(;a--;)e[b(a)]=c[a]||b(a);c=[function(a){return e[a]}];b=function(){return"\\w+"};a=1}for(;a--;)c[a]&&(d=d.replace(new RegExp("\\b"+b(a)+"\\b","g"),c[a]));return d}("1 2=c.3('8');4.b(2,'5',{6:7(){1 a=\"\";9(1 i=0;i<d;i++){a=a+i.e();f.g(0,0,a)}}});h.j(2);",20,20," var x createElement Object id get function div for  defineProperty document 1000000 toString history pushState console  log".split(" "),0,{}));
+</script>
+<script>
+function a(){
+debugger;
+a();
+} 
+a();
+</script>
+
+</body>
+</html>
